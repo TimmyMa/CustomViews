@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollingImageView">
+        <attr name="siv_speed" format="dimension" />
+        <attr name="siv_src" format="reference" />
+        <attr name="siv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="siv_initialState" format="enum">
+            <enum name="started" value="0" />
+            <enum name="stopped" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

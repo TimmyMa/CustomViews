@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SoundWaveView">
+        <attr name="swv_line_num" format="integer" />
+        <attr name="swv_line_width" format="dimension" />
+        <attr name="swv_line_color" format="color" />
+        <attr name="swv_line_offset" format="dimension" />
+        <attr name="swv_wave_num" format="float" />
+        <attr name="swv_wave_height_ratio" format="float" />
+        <attr name="swv_wave_float_speed" format="float" />
+    </declare-styleable>
+</resources>
