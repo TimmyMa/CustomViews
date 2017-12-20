@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/scrollingimageview" />
             <option value="$PROJECT_DIR$/soundwaveview" />
+            <option value="$PROJECT_DIR$/subscribeview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

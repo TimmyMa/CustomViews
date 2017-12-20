@@ -19,7 +19,12 @@
         <activity
             android:name=".ScrollingImageViewActivity"
             android:label="ScrollingImageView" />
-        <activity android:name=".SoundWaveViewActivity"></activity>
+        <activity android:name=".SoundWaveViewActivity">
+
+        </activity>
+        <activity android:name=".SubscribeViewActivity">
+
+        </activity>
     </application>
 
 </manifest>

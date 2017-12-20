@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanplus.customviews.SubscribeViewActivity">
+
+    <tech.mlaboratory.subscribeview.SubscribeView
+        android:id="@+id/view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+    <RadioGroup
+        android:id="@+id/status_radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/status_not_subscribe"
+            android:layout_width="wrap_content"
+            android:text="not subscribe"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/status_subscribing"
+            android:layout_width="wrap_content"
+            android:text="subscribing"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/status_subscribed"
+            android:layout_width="wrap_content"
+            android:text="subscribed"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/scene_radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/scene_action_bar"
+            android:layout_width="wrap_content"
+            android:text="action bar"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/scene_home"
+            android:layout_width="wrap_content"
+            android:text="home"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/scene_column"
+            android:layout_width="wrap_content"
+            android:text="column"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/night_mode_radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/night_mode_day"
+            android:layout_width="wrap_content"
+            android:text="day"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/night_mode_night"
+            android:layout_width="wrap_content"
+            android:text="night"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+</LinearLayout>

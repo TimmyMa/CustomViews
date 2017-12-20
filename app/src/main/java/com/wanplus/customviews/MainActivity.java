@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void soundWaveView(View view) {
         startActivity(new Intent(this, SoundWaveViewActivity.class));
     }
+
+    public void subscribeView(View view) {
+        startActivity(new Intent(this, SubscribeViewActivity.class));
+    }
 }

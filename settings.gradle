@@ -1,1 +1,1 @@
-include ':app', ':scrollingimageview', ':soundwaveview'
+include ':app', ':scrollingimageview', ':soundwaveview', ':subscribeview'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SubscribeView">
+        <attr name="sv_status" format="enum">
+            <enum name="NOT_SUBSCRIBED" value="0"/>
+            <enum name="SUBSCRIBING" value="1"/>
+            <enum name="SUBSCRIBED" value="2"/>
+        </attr>
+        <attr name="sv_scene" format="enum">
+            <enum name="ACTION_BAR" value="0"/>
+            <enum name="HOME" value="1"/>
+            <enum name="COLUMN" value="2"/>
+        </attr>>
+    </declare-styleable>
+</resources>
